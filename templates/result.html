@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Score Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full height */
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            background-image: url('https://www.baltana.com/files/wallpapers-16/4K-Blurred-Backgrounds-HD-Wallpapers-40696.jpg');
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent repeating the background image */
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+            padding: 20px;
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            text-align: center; /* Center text */
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff; /* Link color */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Credit Score Prediction</h1>
+        <p>Your Credit Score is: <strong>{{ credit_score }}</strong></p>
+        <a href="/">Go back</a>
+    </div>
+</body>
+</html>

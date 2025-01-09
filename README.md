@@ -133,6 +133,7 @@ A **Flask** web application was developed to allow users to input their financia
 
 ### Clone the Repository:
 ```bash
-git clone https://github.com/your-username/credit-score-prediction.git
-cd credit-score-prediction
+git clone https://github.com/Abdallafr3oon/Credit-Score.git
+
+cd credit-score
 
